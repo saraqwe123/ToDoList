@@ -1,0 +1,15 @@
+.TaskList {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 75%;
+}
+
+.TaskList li {
+    border: 1px solid rgb(167, 157, 157);
+    padding: 0.75rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
